@@ -1,0 +1,123 @@
+header {
+	background-color: #ff841d;
+}
+header > div {
+	background-color: #e4393c;
+}
+.tab-content {
+	background-color: #f7f7f7;
+}
+.category {
+	overflow: hidden;
+}
+.category ul.nav-tabs > li {
+	display: inline-block;
+	padding: 0 15px;
+	float:none;
+}
+.category ul.nav-tabs > li > a {
+	padding: 10px 0;
+}
+.category ul.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    color: #e4393c;
+    cursor: default;
+    border: none;
+    border-bottom: 2px solid #e4393c;
+}
+.category .nav-tabs {
+	border: none;
+	white-space: nowrap;
+}
+.productlist {
+	background-color: #f7f7f7;
+}
+.media {
+	padding: 10px;
+	margin: 10px 0;
+	background-color: #fff;
+	}
+.media img {
+	width: 130px;
+}
+.media .media-body > h4 {
+	min-height: 28px;
+    max-height: 44px;
+    overflow: hidden;
+	font: normal 14px/22px "microsoft yahei";
+}
+.media-body .price {
+	color: #fc353a;
+	font-size: 20px;
+}
+.media-body .price > i {
+	font-style: normal;
+	color: #fc353a;
+	font-size: 16px;
+	margin-right: 10px;
+}
+.media-body .price > em {
+	font-size: 12px;
+	color: #fc353a;
+} 
+.media-body .price > del {
+	font-size: 12px;
+	color: #a8a8a8;
+	padding-left: 24px;
+}
+.media-body .remain i {
+	position: relative;
+	display: inline-block;
+	width: 60px;
+	height: 14px;
+	border-radius: 5px;
+	border: 1px solid #fc353a;
+}
+.media-body .remain i > em {
+	display: inline-block;
+	width: 75%;
+	height: 12px;
+	border-radius: 5px;
+	background-color: #ffb7b7;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.media-body .remain i > span {
+	font-size: 12px;
+	color: #fff;
+	font-weight: 800;
+	position: absolute;
+	top: -1px;
+	left: 10px;
+}
+.remain b {
+	font-size: 12px;
+	color: #fc353a;
+	font-weight: normal;
+	vertical-align: 2px;
+	margin-left: 10px;
+}
+.remain {
+	margin: 4px 0;
+}
+.getcoupon a:first-child{
+	padding: 6px;
+	border: 1px dotted #fc353a;
+	font-size: 12px;
+	color: #fc353a;
+
+}
+.getcoupon {
+	margin-top: 10px;
+}
+.getcoupon a:last-child {
+	float: right;
+	display: inline-block;
+	height: 34px;
+	padding: 0 10px;
+	color: #fff;
+	line-height: 34px;
+	border-radius: 3px;
+	background-color: #ff5e5d;
+	margin-top: -7px;
+}

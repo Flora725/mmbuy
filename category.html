@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>category</title>
+	<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css" />
+	<link rel="shortcut icon" href="favicon.ico"/>
+	<link rel="stylesheet" href="./css/common.css" />
+	<link rel="stylesheet" href="./css/category.css" />
+	<link rel="stylesheet" type="text/css" href="./iconfont/iconfont.css">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+</head>
+<body>
+	<!--Start of header-->
+	<header>
+		<div>
+			<a href="#" class = "logo" >
+				<img src="images/header_logo.png"/>
+			</a>
+			<a href="#" class = "download fr">
+				<img src="images/header_app.png"/>
+			</a>
+		</div>
+	</header>
+	<!--End of header-->
+	
+	<!--Start of search-->
+	<div class = "search">
+		<input type="text" placeholder="请输入你想比价的商品"/>
+		<input type="submit" value = "搜索" class = "fr" />
+	</div>
+	<!--End of search-->
+	
+	<div class = "category">
+		<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+		</div>
+	</div>
+	
+	<!--Start of register-->
+	<div class = "register container-fluid">
+		<div class = "row">
+			<a href="#" class = "col-xs-3">登陆</a>
+			<a href="#" class = "col-xs-3">注册</a>
+			<a href="#" class = "col-xs-6" class = "retop">
+				<span>
+					<img src="images/top.jpg" alt="" />
+				</span>返回顶部
+			</a>
+		</div>
+	</div>
+	<!--End of register-->
+	
+	<!--Start of footer-->
+	<footer>
+		<p>
+			<span>手机APP下载</span>&nbsp;&nbsp;慢慢买手机版 -- 掌上比价平台
+		</p>
+		<p>
+            m.manmanbuy.com
+		</p>
+		
+	</footer>
+	<!--End of footer-->
+	
+	<script src = "lib/jquery/jquery.js"></script>
+	<script src = "lib/bootstrap/js/bootstrap.js"></script>
+	<script src = "lib/template.js"></script>
+	<script src = "js/category.js"></script>
+</body>
+</html>
+<script id = "cate" type="text/template">
+	{{each result as value i}}
+		<div class="panel panel-default">
+		    <div class="panel-heading" role="tab" id="heading{{value._id}}">
+		      <h4 class="panel-title">
+		        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse{{value._id}}" aria-expanded="true" aria-controls="collapse{{value._id}}">
+		          {{value.title}}
+		          <span class = "iconfont">&#xe65a;</span>
+		          <span class = "iconfont sh">&#xe669;</span> <!--up-->
+		        </a>
+		      </h4>
+		    </div>
+		    
+		    <div id = "collapse{{value._id}}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading{{value._id}}">
+		    	<div class="panel-body container-fluid">
+			      	<ul class = "row"></ul>
+      			</div>
+	    	</div>
+		    
+		</div>
+	{{/each}}
+</script>

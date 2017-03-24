@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>manmanbuy</title>
+	<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css" />
+	<link rel="shortcut icon" href="favicon.ico"/>
+	<link rel="stylesheet" href="./css/common.css" />
+	<link rel="stylesheet" type="text/css" href="iconfont/iconfont.css">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+</head>
+<body>
+	<!--Start of header-->
+	<header>
+		<div>
+			<a href="index.html" class = "glyphicon glyphicon-menu-left" ></a>
+			<span>省钱控-最新优惠</span>
+			<a href="#" class = "download fr">
+				<img src="images/header_app.png"/>
+			</a>
+		</div>
+	</header>
+	<!--End of header-->
+
+	<!--Start of recodetails-->
+	<div class = "recodetails">
+		<ul class = "details">	
+		</ul>
+	</div>
+	<!--End of recodetails-->
+	
+	<div class = "page">
+		<button>上一页</button>
+		<select name="page" id="pg">
+		</select>
+		<button class = "fr">下一页</button>
+	</div>
+	
+	<!--Start of register-->
+	<div class = "register container-fluid">
+		<div class = "row">
+			<a href="#" class = "col-xs-3">登陆</a>
+			<a href="#" class = "col-xs-3">注册</a>
+			<a href="#" class = "col-xs-6" class = "retop">
+				<!--<span>
+					<img src="images/top.jpg" alt="" />
+				</span>-->
+				<i class="iconfont">&#xe666</i>
+				返回顶部
+			</a>
+		</div>
+	</div>
+	<!--End of register-->
+	
+	<div class = "fixad">
+		<img src="images/plaster.png"/>
+	</div>
+	
+	<!--Start of footer-->
+	<footer>
+		<p>
+			<span>手机APP下载</span>&nbsp;&nbsp;慢慢买手机版 -- 掌上比价平台
+		</p>
+		<p>
+            m.manmanbuy.com
+		</p>
+	</footer>
+	<!--End of footer-->
+	
+	<script src = "lib/jquery/jquery.js"></script>
+	<script src = "lib/bootstrap/js/bootstrap.js"></script>
+	<script src = "lib/template.js"></script>
+	<script src = "js/moneyctrl.js"></script>
+	<script src = "js/cache.js"></script>
+</body>
+</html>
+<script id = "tem" type = "text/html">
+	{{each result as value i}}
+		<li>
+			<div class="media">
+	  			<div class="media-left media-middle">
+				    <a href="discount.html?origin=1&productid={{value.productId}}">
+				    	{{#value.productImgSm}}
+				    </a>
+	  			</div>
+				<div class="media-body">
+					<h4 class="media-heading">{{value.productName}}
+						<span>{{value.productPinkage}}
+						</span>
+					</h4>
+					<div class = "net">
+						<span>{{value.productFrom}} | {{value.productTime}}</span>
+						{{if value.productComCount}}
+    						<span class = "fr">{{/\d+/.exec(value.productComCount)[0]}}</span>
+						{{/if}}
+						<i class="iconfont">&#xe621</i>
+					</div>					   	 
+				</div>
+			</div>
+		</li>	
+	{{/each}}
+</script>

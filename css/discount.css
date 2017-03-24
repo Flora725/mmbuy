@@ -1,0 +1,170 @@
+header span {
+	display: inline-block;
+	text-align: center;
+	color: #fff;
+	width: 200px;
+	font: normal 900 18px/23px "microsoft yahei";
+}
+.title {
+	padding: 10px;
+	
+}
+.title h3 {
+	font-size: 18px;
+    margin-bottom: 5px;
+    font-weight: 800;
+    text-align: left;
+    text-align-last: left;
+    word-break: break-all;
+    color: #5a5a5a;
+    line-height: normal;
+}
+.title h4 {
+	color: #ff6c00;
+    font: normal 900 16px "microsoft yahei";
+}
+.title p {
+	font-size: 12px;
+	color: #999;
+	line-height: 15px;
+	margin-top: 10px;
+}
+
+.goodsdetail {
+	padding: 10px;
+}
+.goodsdetail > div > img {
+	width: 120px;
+	margin: 3px 0px 3px 5px;
+	float: right;
+}
+.goodsdetail > div {
+	font-size: 16px;
+    word-break: break-all;
+    line-height: 24px;
+    color: #606060;
+}
+.goodsdetail > img {
+	display: block;
+	margin: 0 auto;
+	margin-top: 10px;
+	width: 230px;
+}
+.goodsdetail ul {
+	width: 200px;
+	margin: 20px auto;
+	font-size: 12px;
+	border: 1px solid #f2f2f2;
+	padding: 10px;
+}
+.goodsdetail ul > li {
+	line-height: 20px;
+	border-bottom: 1px dashed #f2f2f2;
+}
+.goodsdetail ul > li strong {
+	float: right;
+}
+.goodsdetail .tobuy {
+	height: 40px;
+    line-height: 40px;
+    margin: 20px 10px;
+    background: #FF9000;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+}
+.cu-content-pl .reply .form {
+	border: 2px solid #ECEAE8;
+    border-radius: 2px;
+    padding: 4px 0 0 4px;
+    background-color: #fff;
+    position: relative;
+    width: 98%;
+    margin: 0px auto;
+}
+textarea {
+	width: 100%;
+    resize: none;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border: none;
+    line-height: 22px;
+    font-size: 14px;
+    outline: 0;
+    color: #666;
+    height: 68px;
+}
+.cu-content-pl .reply .form .ctrl input {
+	position: absolute;
+    right: -2px;
+    bottom: -2px;
+    background: #ff841d;
+    border: none;
+    border: 2px solid #ff841d;
+    border-left: none;
+    border-top: none;
+    padding: 0px;
+    width: 100px;
+    height: 39px;
+    color: #fff;
+    outline: 0;
+    border-radius: 0 0 2px 0;
+    font-size: 16px;
+    -webkit-appearance: none;
+}
+.cu-content-pl .reply .form .ctrl {
+	background-color: #fbfbfb;
+    height: 36px;
+    margin-left: -4px;
+    border-top: solid 1px #f2f2f2;
+}
+.cu-content-pl .tit {
+    font-size: 16px;
+    padding: 6px 8px;
+}
+.cu-content-pl .list .userimg img {
+    width: 40px;
+    background-position: top;
+    border-radius: 20px;
+    height: 40px;
+}
+input, img {
+    vertical-align: middle;
+}
+.goodsdetail .list ul {
+	border: none;
+}
+.list .userimg {
+	display: inline;
+	vertical-align: middle;
+}
+.list .con {
+	float: right;
+	width: 230px;
+}
+.list .con .username {
+	color: #5997c0;
+    font-size: 13px !important;
+    float: left;
+}
+.list ul > .ui-border-b {
+    clear: both;
+    border: none;
+    padding: 18px 0;
+    background-color: #FFFFFF;
+}
+.list .con .time {
+	color: #999999;
+    font-size: 13px !important;
+    float: right;
+}
+.list > ul {
+	width: 100%;
+}
+.cu-content-pl .list .con .content {
+    word-break: break-all;
+    font-size: 15px !important;
+    color: #606060;
+    line-height: 20px;
+}

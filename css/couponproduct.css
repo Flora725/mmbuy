@@ -1,0 +1,23 @@
+header {
+	background-color: #f4483e;
+}
+.media img {
+	width: 100px;
+}
+.media-body {
+	font-size: 14px;
+    line-height: 24px;
+    padding: 10px 30px 10px 20px;
+}
+.media-body h4 {
+	font-size: 14px;
+    color: #333333;
+    line-height: 20px;
+}
+.couponlist li {
+	border-bottom: 1px solid #e7e7e7;
+}
+.media-body p:last-child {
+	color: #e70;
+	font-size: 12px;	
+}

@@ -1,0 +1,38 @@
+.discountlist a > img {
+	width: 100%;
+	margin: 10px 0;
+}
+.discountlist li {
+	border-right: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	padding: 0 10px 10px 10px;
+	height: 278px;
+}
+.discountlist a > h3 {
+	color: #333333;
+    word-break: break-all;
+    font: normal 900 14px/18px "microsoft yahei";  
+    text-align: left;
+    text-align-last: left;
+    height: 36px;
+    overflow: hidden;
+}
+.discountlist .price {
+	color: #ff6c00;
+    margin-top: 4px;
+    font: normal 14px/18px "microsoft yahei";  
+    text-align: left;
+    text-align-last: left;
+    word-break: break-all;
+    overflow: hidden;
+}
+.discountlist .mall {
+	color: #a1a1a1;
+    font-size: 12px;
+    text-align: left;
+    line-height: 24px;
+    margin-top: 5px;
+}
+
+    
+    

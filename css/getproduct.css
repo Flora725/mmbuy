@@ -1,0 +1,134 @@
+.introduce {
+	padding: 10px;
+}
+.pic img {
+	display: block;
+	margin: 20px auto;
+}
+.introduce {
+	position: relative;
+}
+.round {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	width: 39px;
+	height: 39px;
+	border-radius: 20px;
+	background-color: #97d900;
+	color: white;
+	text-align: center;
+	line-height: 39px;
+}
+
+.introduce .title {
+	font-size: 16px;
+    text-align: left;
+    text-align-last: left;
+    word-break: break-all;
+    margin-bottom: 10px;
+}
+.introduce span:nth-child(2n+1){
+	display: inline-block;
+	width: 150px;
+}
+.introduce span {
+	color: #575757;
+}
+
+.container {
+	margin: 0 -10px;
+	color: #fff;
+    height: 37px;
+    line-height: 35px;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #ffbb00;
+    background: -webkit-gradient(linear,0 0,0 100%,from(#ffd050),to(#ffbb00));
+	border: 1px solid #c14d00;
+}
+.container .row div:nth-child(2) {
+	border-left: 1px solid #c14d00; 
+	border-right: 1px solid #c14d00;
+}
+.mall {
+	height: 44px;
+	color: #5a5a5a;
+	padding: 10px;
+	border-bottom: 1px solid #bbb;
+	background-color: #f2f2f2;
+	font: normal 16px/24px "microsoft yahei";	
+}
+.mall span:nth-child(4) {
+	color: #d10311;
+	font-size: 14px;
+}
+.mall span:nth-child(3) {
+	font-size: 14px;
+	color: #fff;
+	background-color: #f50;
+	border-radius: 5px;
+	display: inline-block;
+	width: 80px;
+	margin-left: 20px;
+	text-align: center;
+}
+p.price {
+	background-color: #f2f2f2;
+	padding: 10px;
+	font-size: 12px;
+	color: #888;
+	border-bottom: 3px solid #7a7a7a;
+}
+
+.detaiscol {
+	padding: 12px;
+	background-color: #f2f2f2;
+}
+.comment > p {
+	height: 40px;
+	background-color: #dbdbdb;
+	text-align: center;
+	line-height: 40px;
+	font-size: 16px;
+}
+.commment-detail {
+	margin: 15px 0;
+}
+.commment-detail > div {
+	font: normal 12px/18px "microsoft yahei";
+	color: #999;
+}
+.commment-detail > div:last-child {
+	color: #000;
+    font-size: 14px;
+    line-height: 22px;
+    padding-top: 5px;
+    text-align: justify; 
+}
+.comment .moreinfo {
+    height: 32px;
+    border-bottom: 1px solid #bababa;
+    box-shadow: 0 0 1px #666;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 32px;
+    background-color: #d4d4d4;
+    background: -webkit-gradient(linear,0 0,0 100%,from(#f1f1f1),to(#d4d4d4));
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+header {
+	background-color: #f4483e;
+	margin-bottom: 10px;
+}
+.couponlist ul img {
+	width: 50px;
+}
+.couponlist ul li {
+	text-align: center;
+	height: 85px;
+	padding: 0;
+}
+.couponlist ul li a {
+	display: block;
+	border: 1px solid #eee;
+	margin: 2px;
+	padding: 5px;
+}
+.couponlist ul li h4 {
+	color: #5A5A5A;
+	font: normal 12px/18px "microsoft yahei";
+}
+.couponlist li.mask {
+	height: 100px;
+}

@@ -1,0 +1,202 @@
+* {
+	//box-sizing: border-box;
+	-webkit-tap-highlight-color: transparent;
+}
+ul, ol, li, p, body, ::before, ::after, h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+}
+ul, ol {
+	list-style: none;	
+}
+a {
+	text-decoration: none !important;
+	color: #333
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.clearfix::after, .clearfix::before{
+	content: "";
+	height: 0;
+	line-height: 0;
+	display: block;
+	visibility: hidden;
+	clear: both;
+}
+input {
+	border:none;
+	padding: 0;
+	vertical-align: middle;
+}
+
+/*header*/
+header{
+	background-color: #ff841d;
+	border-bottom: 1px solid #E6E6E6;
+}
+header>div{
+	padding: 12px 0 12px 17px;
+}
+header>div>a{
+	display: inline-block;
+}
+header>div>a:last-child{
+	margin: -4px 7px 0 0;
+}
+header .logo > img{
+	height:25px;
+	vertical-align: middle;
+}
+header .download > img{
+	height: 34px;
+	vertical-align: middle;
+}
+
+/*search*/
+.search {
+	padding: 10px;
+	border-bottom: 1px solid #E6E6E6;
+	position: relative;
+}
+.search input {
+	display: block;
+	height: 30px;
+	background-color: red;
+}
+.search input:first-child {
+	background-color: #f1f1f1;
+	border-radius: 15px;
+	padding-left: 15px;
+	width: 90%;
+}
+.search input:last-child {
+	width: 63px;
+	background-color: #ff841d;
+	border-radius: 15px;
+	font:normal 16px/30px "microsoft yahei";
+	color: white;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+/*register*/
+.register {
+	background-color: #efefef;
+	border: 1px solid #c4c4c4;
+}
+.register a {
+	display: block;
+	color: #5A5A5A;
+	font: normal 14px/34px "microsoft yahei";
+	text-align: center;
+}
+.register a:nth-child(2) {
+	border-left: 1px solid #c4c4c4;
+	border-right: 1px solid #c4c4c4;
+}
+.register span > img {
+	width: 15px;
+	vertical-align: middle;
+}
+
+/*footer*/
+footer {
+	padding: 15px 0;
+	font: normal 12px/15px "microsoft yahei";
+	text-align: center;
+	background-color: #efefef;
+}
+footer span {
+	color: red;
+}
+
+.choose {
+	height: 36px;
+	padding-left: 8px;
+	line-height: 36px;
+	font-size: 14px;
+	border-top: solid 1px #ebebeb;
+    border-bottom: 1px solid #ccc;
+    background-color: #ebebeb;
+    background: gradient(linear,0 0,0 100%,from(#ffffff),to(#ebebeb));
+}
+.choose strong {
+	color: #d10311;
+}
+
+.fixad > img {
+	width: 60px;
+}
+.fixad {
+	position: fixed;
+	right: 2px;
+	bottom: 30px;
+}
+
+/*.recodetails*/
+.recodetails img {
+	width: 100px;
+}
+.recodetails .media > div:first-child {
+	width: 110px;
+}
+.recodetails li {
+	padding: 14px 8px;
+}
+.recodetails h4 {
+	height: 57px;
+	font: normal 15px/19px "microsoft yahei";
+}
+.recodetails h4 > span {
+	color: #ff6c00;
+}
+.recodetails .net {
+	margin-top: 30px;
+	color: #a1a1a1;
+	font-size: 12px;
+	position: relative;
+}
+.recodetails .net i {
+	margin-right: 5px;
+	position: absolute;
+	top: -2px;
+	right: 12px;
+}
+
+.page button {
+	width: 80px;
+	height: 30px;
+	border-radius: 5px;
+	margin: 10px;
+}
+.page {
+	position: relative;
+}
+.page select {
+	height: 30px;
+	width: 80px;
+	position: absolute;
+	left: 50%;
+	margin-left: -25px;
+	top: 10px;
+}
+.glyphicon-menu-left::before{
+	color: #fff;
+	font-size: 18px;
+	font-style: bold;
+}
+header span {
+	display: inline-block;
+	text-align: center;
+	color: #fff;
+	width: 240px;
+	text-align: center;
+	font: normal 900 18px/23px "microsoft yahei";
+}
+
+
